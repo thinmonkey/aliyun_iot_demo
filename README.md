@@ -1,0 +1,2 @@
+# aliyun_iot_demo
+此demo是基于aliyun iot官方的Java demo做的简单android平台消息的封装处理，通过建立一个HandlerThread在一个带有消息队列的线程中去处理iot初始化认证连接，以及消息发布和订阅工作。避免了在主线程操作出现异常，也可以方便的在主线程和iot线程进行消息通信
